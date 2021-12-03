@@ -75,7 +75,8 @@ border:solid 5px white ;}
 /*FOOTER*/
 
 .contenedorFooter{display: flex;
-justify-content: center;}
+justify-content: center;
+margin-top: 50px;}
 .redesSociales{
 display: flex;
 justify-content: center;}
