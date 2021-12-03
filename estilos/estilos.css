@@ -37,12 +37,23 @@ flex-flow: row wrap ;}
 background-repeat:repeat;
 background-size: contain;}
 
+.slide{
+    margin-top: 10px;
+}
+
+.slide img{
+    height:55vh;
+padding-bottom: 10px;
+padding-left: 15px;
+padding-right: 15px;}
  
-.produccion{margin: 20px;}
+.produccion{margin: 5px;}
 .produccionCaja{display: flex;
 justify-content: space-around;
 padding: 5px 5px 5px 5px ;}
 
+.nosotros{margin: 5px;}
+.historia{margin: 5px;}
 .datosContacto{display: flex;
 justify-content: start;
 flex-direction: column;
@@ -63,7 +74,8 @@ border:solid 5px white ;}
 
 /*FOOTER*/
 
-
+.contenedorFooter{display: flex;
+justify-content: center;}
 .redesSociales{
 display: flex;
 justify-content: center;}

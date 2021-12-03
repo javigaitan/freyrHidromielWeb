@@ -13,8 +13,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500;600&family=Tenor+Sans&display=swap"
         rel="stylesheet">
-    <script src="https://kit.fontawesome.com/7cf6221d6a.js" crossorigin="anonymous"></script>
 
+    <!--Mi BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--Mi CSS-->
     <link rel="stylesheet" href="./estilos/estilos.css">
 </head>
@@ -54,38 +56,44 @@
     </header>
 
     <section>
-        <h2>Fotos</h2>
+        <div>
 
-        <div class="cajaFotosGrid">
-            <div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../Proyecto/Imagenes/noreuga.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Proyecto/Imagenes/noruega2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Proyecto/Imagenes/noruega3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
 
-                <img class="fotogrid" src="./Imagenes/botella.jpg" alt="Botella de hidromiel">
-            </div>
-            <div>
-                <img class="fotogrid" src="./Imagenes/cuerno.jpg" alt="vikingos skoll">
-            </div>
-            <div>
-                <img class="fotogrid" src="./Imagenes/cuerno2.jpg" alt="vikingos tomando">
-            </div>
-            <div>
-                <img class="fotogrid" src="./Imagenes/cata (1).jpg" alt="catando botellas">
-            </div>
-            <div>
-                <img class="fotogrid" src="./Imagenes/cata (2).jpg" alt="fermentacion">
-            </div>
-            <div>
-                <img class="fotogrid" src="./Imagenes/cata (3).jpg" alt="medida de densidad">
-            </div>
-            <div>
-                <img class="fotogrid" src="./Imagenes/cata (4).jpg" alt="fermentacion en madera">
-            </div>
 
-            <div class="fotoancho">
-                <img class="fotogrid" src="./Imagenes/miel_0.jpg" alt="miel materia prima">
+
             </div>
         </div>
 
-        </div>
     </section>
 
     <div class="fondoCompleto">
@@ -190,8 +198,8 @@
     <footer>
 
 
-        <div class="contenedorfooter">
-            <h2> Contactanos </h2>
+        <div class="contenedorFooter">
+            <h4> Contactanos </h4>
         </div>
 
         <div class="redesSociales">
@@ -213,7 +221,10 @@
     </footer>
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7cf6221d6a.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
