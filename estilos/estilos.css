@@ -176,4 +176,10 @@ a{
 
 .fotoancho{
     grid-column-start:span 1 ;}
+
+.videoAdaptado{
+    transform: scale(0.9);
+    display: flex;
+    justify-content: center;}
+
 }
