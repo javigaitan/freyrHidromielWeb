@@ -152,6 +152,8 @@ a{
 .fotoancho{
     grid-column-start:span 1 ;}
 
+}
+
 @media screen and (max-width: 640px){
 .cajaFotosGrid{
     grid-template-columns: repeat(2,1fr);
