@@ -1,118 +1,167 @@
 /*Body*/
 
-body{font-family: 'Cinzel', serif;
+body{
+    font-family: 'Cinzel', serif;
     font-family: 'Cinzel Decorative', cursive;
     font-family: 'Tenor Sans', sans-serif;}
 
-a {color: black;
- text-decoration:none ;}
+a{
+    color: black;
+    text-decoration:none ;}
 
- h1{font-size: 50px;}
+ h1{
+     font-size: 50px;}
 
- h1, h2, h3, h4, h5, h6{font-family: 'Cinzel Decorative', cursive;}
+ h1, h2, h3, h4, h5, h6{ 
+     font-family: 'Cinzel Decorative', cursive;}
 
 
 /*HEADER NAV*/
 
-.header{background-image: url(..//Imagenes/Freyrfondo.jpg);
+.header{
+    background-image: url(..//Imagenes/Freyrfondo.jpg);
     background-position: top;
-background-repeat: no-repeat ;
-background-size: cover;
-border-bottom: solid 3px #15364A;}
+    background-repeat: no-repeat ;
+    background-size: cover;
+    border-bottom: solid 3px #15364A;}
 
-.headerLogo{display: flex;
-justify-content: space-between;
-;}
+.headerLogo{
+    display: flex;
+    justify-content: space-between;}
 
 
-.flexcontein {display: flex;
-justify-content: space-around;
-flex-flow: row wrap ;}
-.header nav ul{list-style-type: none;}
-.header nav ul li {display: inline-block; 
+.flexcontein {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap ;}
+
+
+.header nav ul{
+    list-style-type: none;}
+
+
+.header nav ul li {
+    display: inline-block; 
     margin-right: 50px; 
     font-weight: bold} 
 
-.fondoCompleto{background-image: url(..//Imagenes/Freyrfondo\ completo.jpg);
-background-repeat:repeat;
-background-size: contain;}
+.fondoCompleto{
+    background-image: url(..//Imagenes/Freyrfondo\ completo.jpg);
+    background-repeat:repeat;
+    background-size: contain;}
 
 .slide{
-    margin-top: 10px;
-}
+    margin-top: 10px;}
+
 
 .slide img{
     height:55vh;
-padding-bottom: 10px;
-padding-left: 15px;
-padding-right: 15px;}
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;}
  
-.asideVenta{margin-top: 20px;}
-.produccion{margin: 5px;}
-.produccionCaja{display: flex;
-justify-content: space-around;
-padding: 5px 5px 5px 5px ;}
+.asideVenta{
+    margin-top: 20px;}
 
-.nosotros{margin: 5px;}
-.nosotrosCard{margin-top: 80px;}
-.historia{margin: 5px;}
-.contacto{margin-top: 20px;}
-.datosContacto{display: flex;
-justify-content: start;
-flex-direction: column;
-font-size: 15px;
-padding: 5px 20px 5px 20px;}
 
-.cajaFotosGrid{display: grid;
-grid-template-columns: repeat(3,1fr);
-grid-auto-rows: 250px;
-padding: 20px;
-gap: 5px;}
+.produccion{
+    margin: 5px;}
 
-.fotogrid{width: 100%;
+
+.produccionCaja{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 5px 5px 5px ;}
+
+.nosotros{
+    margin: 5px;}
+
+.nosotrosCard{
+    margin-top: 80px;}
+
+.historia{
+    margin: 5px;}
+
+.contacto{
+    margin-top: 20px;}
+
+.datosContacto{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    font-size: 15px;
+    padding: 5px 20px 5px 20px;}
+
+.cajaFotosGrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 250px;
+    padding: 20px;
+    gap: 5px;}
+
+.fotogrid{
+    width: 100%;
     height: 100%;
-object-fit: cover;
-border:solid 5px white ;}
-.fotoancho{grid-column-start:span 2 ;}
+    object-fit: cover;
+    border:solid 5px white ;}
+
+
+.fotoancho{
+    grid-column-start:span 2 ;}
 
 .formularioCuerpo{margin-top: 50px;}
 
 /*FOOTER*/
 
-.contenedorFooter{display: flex;
-justify-content: center;
-margin-top: 50px;}
+.contenedorFooter{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;}
+
 .redesSociales{
-display: flex;
-justify-content: center;}
+    display: flex;
+    justify-content: center;}
+
 .redesSociales i{
     font-size: 30px;
     padding: 0 20px 0 20px;}
-.copy{display: flex;
-justify-content: center;
-font-size: small;
-color: #15364A;}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    color: #15364A;}
 
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 769px) {
-.header{background: none;
-background-color: rgb(255, 255, 255);}
-.cajaFotosGrid{grid-template-columns: repeat(2,1fr);
+.header{
+    background: none;
+    background-color: rgb(255, 255, 255);}
+
+.cajaFotosGrid{
+    grid-template-columns: repeat(2,1fr);
     grid-auto-rows: 150px;
     padding: 10px;}
-.produccionCaja{display: flex;
-flex-direction: column;}
-.fotoancho{grid-column-start:span 1 ;}
-}
+
+.produccionCaja{
+    display: flex;
+    flex-direction: column;}
+
+.fotoancho{
+    grid-column-start:span 1 ;}
 
 @media screen and (max-width: 640px){
-.cajaFotosGrid{grid-template-columns: repeat(2,1fr);
-        grid-auto-rows: 100px;
-        padding: 5px;} 
+.cajaFotosGrid{
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 100px;
+    padding: 5px;} 
 
-.produccionCaja{display: flex;
+.produccionCaja{
+    display: flex;
     flex-direction: column;}
-.fotoancho{grid-column-start:span 1 ;}
+
+.fotoancho{
+    grid-column-start:span 1 ;}
 }
