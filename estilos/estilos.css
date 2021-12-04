@@ -53,7 +53,9 @@ justify-content: space-around;
 padding: 5px 5px 5px 5px ;}
 
 .nosotros{margin: 5px;}
+.nosotrosCard{margin-top: 80px;}
 .historia{margin: 5px;}
+.contacto{margin-top: 20px;}
 .datosContacto{display: flex;
 justify-content: start;
 flex-direction: column;
@@ -71,6 +73,8 @@ gap: 5px;}
 object-fit: cover;
 border:solid 5px white ;}
 .fotoancho{grid-column-start:span 2 ;}
+
+.formularioCuerpo{margin-top: 50px;}
 
 /*FOOTER*/
 
