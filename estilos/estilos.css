@@ -55,11 +55,9 @@ a{
 
 }
 
-
-.fondoCompleto{
-    background-image: url(..//Imagenes/Freyrfondo\ completo.jpg);
-    background-repeat:repeat;
-    background-size: contain;}
+.fondoNuevo{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(196,196,196,1) 100%, rgba(235,237,238,1) 100%);}
 
 .slide{
     margin-top: 10px;}
