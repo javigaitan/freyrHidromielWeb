@@ -1,26 +1,3 @@
-/*Body*/
-
-body{
-    font-family: 'Cinzel', serif;
-    font-family: 'Cinzel Decorative', cursive;
-    font-family: 'Tenor Sans', sans-serif;}
-
-a{
-    color: black;
-    text-decoration:none ;}
-
- h1{
-     font-size: 50px;}
-
- h1, 
- h2, 
- h3, 
- h4, 
- h5, 
- h6{ 
-     font-family: 'Cinzel Decorative', cursive;}
-
-
 /*HEADER NAV*/
 
 .header{
@@ -54,6 +31,18 @@ a{
     transform: scale(1.3);
 
 }
+
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;}
 
 .fondoNuevo{
     background: rgb(255,255,255);
@@ -146,48 +135,3 @@ a{
     color: #15364A;}
 
 
-/* MEDIA QUERIES */
-
-@media screen and (max-width: 769px) {
-.header{
-    background: none;
-    background-color: rgb(255, 255, 255);}
-
-.cajaFotosGrid{
-    grid-template-columns: repeat(2,1fr);
-    grid-auto-rows: 150px;
-    padding: 10px;}
-
-.produccionCaja{
-    display: flex;
-    flex-direction: column;}
-
-.fotoancho{
-    grid-column-start:span 1 ;}
-
-}
-
-@media screen and (max-width: 640px){
-.cajaFotosGrid{
-    grid-template-columns: repeat(2,1fr);
-    grid-auto-rows: 100px;
-    padding: 5px;} 
-
-.carruselAdaptado{
-    transform: scale(0.9);
-    display: flex;
-    justify-content: center; }
-
-.produccionCaja{
-    display: flex;
-    flex-direction: column;}
-
-.fotoancho{
-    grid-column-start:span 1 ;}
-
-.videoAdaptado{
-    transform: scale(0.9);
-    display: flex;
-    justify-content: center;}
-
-}
