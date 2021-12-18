@@ -1,0 +1,21 @@
+/*HEADER NAV*/
+
+.header{
+    background-image: url(..//Imagenes/Freyrfondo.jpg);
+    background-position: top;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    border-bottom: solid 3px #15364A;}
+
+.headerLogo{
+    display: flex;
+    justify-content: space-between;}
+
+
+.flexcontein {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap ;}
+
+
+

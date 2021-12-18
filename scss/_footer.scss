@@ -1,0 +1,27 @@
+/*FOOTER*/
+
+/*MIXIN*/
+
+@mixin cuboFlex ($display, $justify) {
+    display: $display;
+    justify-content: $justify;
+}
+    
+
+
+.contenedorFooter{
+    @extend .redesSociales;
+    margin-top: 50px;}
+
+.redesSociales{
+    @include cuboFlex(flex, center )
+}
+
+.redesSociales i{
+    font-size: 30px;
+    padding: 0 20px 0 20px;}
+
+.copy{
+    @extend .redesSociales;
+    font-size: small;
+    color: #15364A;}
