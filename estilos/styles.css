@@ -44,6 +44,32 @@ h6 {
 .listaElejida:hover {
   transform: scale(1.3); }
 
+.comienzoPrimero {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: solid 5px #15364A;
+  margin: 65px;
+  padding: 10px; }
+  .comienzoPrimero .p {
+    margin: 5px;
+    padding: 10px; }
+
+.presentacionCubo {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px; }
+  .presentacionCubo .botonElegido:hover {
+    font-weight: bold; }
+  .presentacionCubo .img {
+    transform: scale(0.9);
+    margin-bottom: 20px;
+    margin-top: 0px; }
+
+.encuadreTexto {
+  padding-inline: 10px;
+  margin-top: 10px; }
+
 .checkbtn {
   font-size: 30px;
   color: #fff;
