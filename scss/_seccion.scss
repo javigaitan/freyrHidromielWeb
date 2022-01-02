@@ -20,27 +20,18 @@
     }
 }
 
-.presentacionCubo{
-    display: flex;
-    justify-content: space-around;
-    margin: 10px;
+.encuadreTexto{
+
 
     .botonElegido:hover{
         font-weight: bold;
+    
+    
     }
-
-
-
-
-    .img{
-    transform: scale(0.9);
-    margin-bottom: 20px;
-    margin-top: 0px;
-   
 }
 
 
-}
+
 
 .encuadreTexto{
     padding-inline: 10px;

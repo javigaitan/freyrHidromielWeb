@@ -55,16 +55,8 @@ h6 {
     margin: 5px;
     padding: 10px; }
 
-.presentacionCubo {
-  display: flex;
-  justify-content: space-around;
-  margin: 10px; }
-  .presentacionCubo .botonElegido:hover {
-    font-weight: bold; }
-  .presentacionCubo .img {
-    transform: scale(0.9);
-    margin-bottom: 20px;
-    margin-top: 0px; }
+.encuadreTexto .botonElegido:hover {
+  font-weight: bold; }
 
 .encuadreTexto {
   padding-inline: 10px;
