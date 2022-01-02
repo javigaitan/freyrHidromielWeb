@@ -139,7 +139,27 @@ h6 {
   grid-column-start: span 2; }
 
 .formularioCuerpo {
-  margin-top: 50px; }
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px; }
+
+.formularioCuerpo input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px; }
+
+.contacto {
+  text-align: center;
+  margin: 0px;
+  font-size: 30px;
+  color: black;
+  margin-bottom: 20px; }
 
 .maps {
   display: flex;
@@ -177,6 +197,8 @@ h6 {
     grid-column-start: span 1; } }
 
 @media screen and (max-width: 640px) {
+  .form {
+    width: 100%; }
   .cajaFotosGrid {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 100px;
