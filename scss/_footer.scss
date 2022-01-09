@@ -11,7 +11,7 @@
 
 .contenedorFooter{
     @extend .redesSociales;
-    margin-top: 50px;}
+    margin-top: 30px;}
 
 .redesSociales{
     @include cuboFlex(flex, center )

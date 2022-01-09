@@ -23,8 +23,8 @@
     width: 100%;}
 
 .cajaFotosGrid{
-    grid-template-columns: repeat(2,1fr);
-    grid-auto-rows: 100px;
+    grid-template-columns: repeat(1,1fr);
+    grid-auto-rows: 150px;
     padding: 5px;} 
 
 .carruselAdaptado{
@@ -46,5 +46,48 @@
     justify-content: center;}
 
 
+.containerCards{
+    margin-top: 10px;
+    padding-bottom: 65px;
+    padding-left: 35px;
+    padding-right: 0px;
+
+
 }
 
+.asideVenta{
+    h3{
+        padding-left: 50px;
+    }
+}
+
+
+.nosotrosCard{
+    h3{
+        padding-left: 20px;
+    }
+}
+
+
+.encuadreTexto{
+    h3{
+        padding-left: 50px;
+    }
+}
+
+.maps{
+    transform: scale(0.9);
+    padding-left: 20px;
+    padding-right: 0px;
+    h2{
+        padding-left: 90px;
+    }
+}
+
+.encuadreTextoIndex{
+    h3{
+        padding-left: 20px;
+    }
+}
+
+}

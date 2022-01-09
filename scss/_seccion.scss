@@ -35,7 +35,11 @@
 
 .encuadreTexto{
     padding-inline: 10px;
-   margin-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 80px;
+    padding-left: 65px;
+    padding-right: 65px;
+
    
 
 
@@ -71,6 +75,10 @@
  
 .asideVenta{
     margin-top: 20px;
+    padding-bottom: 80px;
+
+    h3{padding-left: 65px}
+
     
 
 
@@ -93,7 +101,15 @@
     padding: 5px 5px 5px 5px ;}
 
 .nosotrosCard{
-    margin-top: 80px;}
+    margin-top: 80px;
+    padding-bottom: 80px;
+
+    h3{
+        padding-left: 65px;
+    }
+
+
+}
 
 .datosContacto{
     display: flex;
